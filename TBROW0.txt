@@ -97,7 +97,7 @@ global blinkgreen rapid
 # vlan 10.0.66.144-144
 # vlan 10.0.66.146-146
 # vlan 10.0.66.149-149
-# vlan 10.0.66.158-158
+# vlan 10.0.66.159-159
 # vlan 10.0.67.2-2
 # vlan 10.0.67.3-3
 # vlan 10.0.67.4-4
@@ -260,6 +260,7 @@ f128ab location TBROW00096
 78698e location TBROW00099
 0f1f61 location TBROW00100
 # extra machines added 12/9/19
+01a67d location TBROW0XTRA # 10.0.66.158
 bd4186 location TBROW0XTRA # 10.0.116.100
 2a8f3c location TBROW0XTRA # 10.0.116.105
 7c2304 location TBROW0XTRA # 10.0.116.120
