@@ -288,7 +288,21 @@ ced30b location TBROW0XTRA # 10.0.117.134
 ## reboots
 
 ## resets
+0c44c2 reset 1577117942
+18b1ae reset 1577117942
+3a984c reset 1577117942
+f16670 reset 1577117942
+795c1e reset 1577117942
+dd51b7 reset 1577117942
+2997d7 reset 1577117942
+1ed5db reset 1577117942
+ab21b7 reset 1577117942
+ef1930 reset 1577117942
+9b3778 reset 1577117942
+78698e reset 1577117942
 b5dba0 reset 1577084432
+
+## removals
 # s_remove generated on Dec 09 2019 22:33:20 utc: 1575930800
 global remove a2cb7c,d9e963,d10cec
 
