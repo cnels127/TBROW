@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 100
+global throttle 50
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -288,7 +288,7 @@ ced30b location TBROW0XTRA # 10.0.117.134
 ## reboots
 
 ## resets
-
+b5dba0 reset 1577084432
 # s_remove generated on Dec 09 2019 22:33:20 utc: 1575930800
 global remove a2cb7c,d9e963,d10cec
 
