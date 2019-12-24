@@ -290,6 +290,7 @@ bd4186 location TBROW0XTRA # 10.0.116.100
 ## reboots
 
 ## resets
+0f1f61 reset 1577173621
 0c44c2 reset 1577117942
 18b1ae reset 1577117942
 3a984c reset 1577117942
