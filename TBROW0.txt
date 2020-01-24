@@ -1,5 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 100 s9 @ 16 Th/s = 1600 Th/s
+## 10 T17 @ 40 Th/s =  400 Th/s
+## 100 s9 @ 16 Th/s = 1600 Th/s
 
 global custompanel TBROW0bit049
 global customer bit49-Russia
@@ -28,12 +29,13 @@ global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
+global panelclear 999
+# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1575403390 # 2
 global uncork 1577132760
 # global reset 1575567601
-# global panelpass gj83Nkgikg
 
 ## vlans
 vlan 10.0.32.46-46 # adad49
@@ -158,6 +160,17 @@ vlan 10.0.117.103-103 # 18daaf
 vlan 10.0.117.57-57 # 5b8363
 vlan 10.0.116.100-100 # bd4186
 vlan 10.0.116.105-105 # 2a8f3c
+# 10 T17
+vlan 10.3.86.61-61 # 631dd2
+vlan 10.3.86.62-62 # 8df580
+vlan 10.3.86.63-63 # 156d7e
+vlan 10.3.86.64-64 # 78b167
+vlan 10.3.86.65-65 # 947fc0
+vlan 10.3.86.71-71 # 0c9708
+vlan 10.3.86.72-72 # 0e2daa
+vlan 10.3.86.73-73 # a4e862
+vlan 10.3.86.74-74 # b86e2a
+vlan 10.3.86.75-75 # abd53b
 
 ## locations
 adad49 location TBROW00001 # 10.0.32.46
@@ -282,6 +295,17 @@ b8dc7c location TBROW0XTRA # 10.0.116.149
 5b8363 location TBROW0XTRA # 10.0.117.57
 bd4186 location TBROW0XTRA # 10.0.116.100
 2a8f3c location TBROW0XTRA # 10.0.116.105
+# 10 T17
+631dd2 location 86x61 # 10.3.86.61
+8df580 location 86x62 # 10.3.86.62
+156d7e location 86x63 # 10.3.86.63
+78b167 location 86x64 # 10.3.86.64
+947fc0 location 86x65 # 10.3.86.65
+0c9708 location 86x71 # 10.3.86.71
+0e2daa location 86x72 # 10.3.86.72
+a4e862 location 86x73 # 10.3.86.73
+b86e2a location 86x74 # 10.3.86.74
+abd53b location 86x75 # 10.3.86.75
 
 ## throttle
 # s_uncork generated on Jan 10 2020 20:54:43 utc: 1578689683
