@@ -5,7 +5,7 @@
 global custompanel TBROW0bit049
 global customer bit49-Russia
 
-global poolname1 37.187.226.185:9996 # (sha256.mining-dutch.nl:9996)
+global poolname1 asia.sha256.mining-dutch.nl:9996 # (asia.sha256.mining-dutch.nl:9996)
 global username1 cryptotntt
 global poolpass1 x
 global sendworker1 yes
