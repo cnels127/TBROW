@@ -2,7 +2,7 @@
 ## 10 T17 @ 40 Th/s =  400 Th/s
 ## 100 s9 @ 16 Th/s = 1600 Th/s
 
-global custompanel TBROW0
+global custompanel TBROW0bit049
 global customer bit49-Russia
 
 global poolname1 37.187.226.185:9996 # (sha256.mining-dutch.nl:9996)
