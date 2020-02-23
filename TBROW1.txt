@@ -5,7 +5,7 @@
 global custompanel TBROW1bit049
 global customer bit49-Russia
 
-global poolname1 POOLCORE.BITCOINRH.ORG:3063
+global poolname1 51.15.90.27:3063 # (POOLCORE.BITCOINRH.ORG:3063)
 global username1 RvSaLnbptRhKBje62uKa8fWRzenxu3rDJW
 global poolpass1 x
 global sendworker1 yes
