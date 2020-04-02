@@ -5,16 +5,16 @@
 global custompanel TBROW0bit049
 global customer bit49-Russia
 
-global poolname1 47.244.183.19:3333 # (profit.pool.bitcoin.com:3333)
+global poolname1 139.99.51.161:9996 # (asia.sha256.mining-dutch.nl:9996)
 global username1 cryptotntt
-global poolpass1 x
+global poolpass1 d=33992
 global sendworker1 yes
-global poolname2 47.91.65.135:443 # (eu.ss.btc.com:443)
-global username2 tnttbtceu
+global poolname2 47.244.183.19:3333 # (profit.pool.bitcoin.com:3333)
+global username2 cryptotntt
 global poolpass2 x
 global sendworker2 yes
-global poolname3 47.254.146.77:3333 # (btc-eu.f2pool.com:3333)
-global username3 cryptotntt
+global poolname3 47.91.65.135:443 # (eu.ss.btc.com:443)
+global username3 tnttbtceu
 global poolpass3 x
 global sendworker3 yes
 
@@ -33,7 +33,7 @@ global panelclear 999
 # global panelpass gj83Nkgikg
 
 # global retune 1
-global reboot 1582439779 # 02/23/2020 @ 6:36am (UTC)
+global reboot 1585804632 # 04/02/2020 @ 5:17am (UTC)
 # global uncork 1577132760
 # global reset 1575567601
 
