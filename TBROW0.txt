@@ -1,6 +1,7 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 ## 10 T17 @ 40 Th/s =  400 Th/s
-## 100 s9 @ 16 Th/s = 1600 Th/s
+## 68 s9 @ 16 Th/s = 1088 Th/s
+## 32 s9 decommissioned 4/7/20
 
 global custompanel TBROW0bit049
 global customer bit49-Russia
