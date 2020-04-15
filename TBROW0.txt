@@ -387,6 +387,38 @@ ef1930 reset 1577117942
 ## removals
 # s_remove generated on Dec 09 2019 22:33:20 utc: 1575930800
 global remove a2cb7c,d9e963,d10cec
+global remove e61a9b
+global remove 418c38
+global remove 803187
+global remove da121e
+global remove 3b93d0
+global remove d830a5
+global remove 03402b
+global remove b5dba0
+global remove 407bad
+global remove 3c6079
+global remove adb312
+global remove 16c71c
+global remove 07155f
+global remove 39bea5
+global remove 5dc1a8
+global remove 891907
+global remove 12efbe
+global remove 8943b5
+global remove f6a043
+global remove 3a5117
+global remove 19d799
+global remove 6d061b
+global remove 876b58
+global remove e30009
+global remove 7f9402
+global remove 209839
+global remove f16670
+global remove d1214b
+global remove fdbceb
+global remove a6a4fb
+global remove f128ab
+global remove 0f1f61
 
 ## asic password
 asicpass admin
