@@ -1,7 +1,10 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## 10 T17 @ 40 Th/s =  400 Th/s
-## 68 s9 @ 16 Th/s = 1088 Th/s
-## 32 s9 decommissioned 4/7/20
+## 10 s9 @ 16 Th/s = 160 Th/s (contract exp 2/17/20)
+## 14 s9 @ 16 Th/s = 224 Th/s (contract exp 3/28/20)
+## 24 s9 @ 16 Th/s = 384 Th/s (contract exp 6/13/20)
+## 52 s9 @ 16 Th/s = 832 Th/s (contract exp 7/23/20)
+## 32 s9 @ 16 Th/s = -512 Th/s consolidated 4/7/20
+## TOTAL EXP HASHRATE = 1088 Th/s
+## 10 T17 @ 40 Th/s =  400 Th/s (contract exp 4/18/21)
 
 global custompanel TBROW0bit049
 global customer bit49-Russia
@@ -35,10 +38,9 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
-global reboot 1586647500 # 04/11/2020 @ 11:25pm (UTC)
+# global reboot 1586647500
 # global uncork 1577132760
 # global reset 1575567601
 
@@ -165,17 +167,19 @@ vlan 10.0.117.103-103 # 18daaf
 vlan 10.0.117.57-57 # 5b8363
 vlan 10.0.116.100-100 # bd4186
 vlan 10.0.116.105-105 # 2a8f3c
-# 10 T17
-vlan 10.0.30.11-11 # 631dd2
-vlan 10.0.30.12-12 # 8df580
-vlan 10.0.30.19-19 # 78b167
-vlan 10.0.30.2-2 # 0c9708
-vlan 10.0.30.22-22 # b86e2a
-vlan 10.0.30.31-31 # abd53b
-vlan 10.0.31.157-157 # 947fc0
-vlan 10.0.31.30-30 # 156d7e
-vlan 10.0.31.47-47 # a4e862
-vlan 10.0.31.48-48 # 0e2daa
+vlan 10.0.116.100-100 # bd4186 # extra added 12/9/19
+vlan 10.0.116.105-105 # 2a8f3c # extra added 12/9/19
+vlan 10.0.116.120-120 # 7c2304 # extra added 12/9/19
+vlan 10.0.116.149-149 # b8dc7c # extra added 12/9/19
+vlan 10.0.117.56-56 # a48a0d # extra added 12/9/19
+vlan 10.0.117.60-60 # 4431b9 # extra added 12/9/19
+vlan 10.0.117.63-63 # 136ece # extra added 12/9/19
+vlan 10.0.117.68-68 # f393eb # extra added 12/9/19
+vlan 10.0.117.70-70 # 73e1d6 # extra added 12/9/19
+vlan 10.0.117.78-78 # 7edd32 # extra added 12/9/19
+vlan 10.0.117.103-103 # 18daaf # extra added 12/9/19
+vlan 10.0.117.107-107 # 480add # extra added 12/9/19
+vlan 10.0.117.124-124 # a19f5a # extra added 12/9/19
 
 ## locations
 adad49 location TBROW00001 # 10.0.32.46
@@ -278,151 +282,37 @@ db4511 location TBROW00093 # 10.0.67.45
 9bdd75 location TBROW00098 # 10.0.67.52
 78698e location TBROW00099 # 10.0.67.53
 # 0f1f61 location TBROW00100 # 10.0.67.56 # SCRAPPED 4/10/20
-# extra machines added 12/9/19
-01a67d location TBROW0XTRA # 10.0.66.158
-73e1d6 location TBROW0XTRA # 10.0.117.70
-88e270 location TBROW0XTRA # 10.0.117.151
-a19f5a location TBROW0XTRA # 10.0.117.124
-ced30b location TBROW0XTRA # 10.0.117.134
-a48a0d location TBROW0XTRA # 10.0.117.56
-7c2304 location TBROW0XTRA # 10.0.116.120
-eb8f83 location TBROW0XTRA # 10.0.116.151
-f393eb location TBROW0XTRA # 10.0.117.68
-b8dc7c location TBROW0XTRA # 10.0.116.149
-58ac8c location TBROW0XTRA # 10.0.116.135
-480add location TBROW0XTRA # 10.0.117.107
-136ece location TBROW0XTRA # 10.0.117.63
-850aab location TBROW0XTRA # 10.0.117.94
-0ceb03 location TBROW0XTRA # 10.0.116.131
-4431b9 location TBROW0XTRA # 10.0.117.60
-7edd32 location TBROW0XTRA # 10.0.117.78
-18daaf location TBROW0XTRA # 10.0.117.103
-5b8363 location TBROW0XTRA # 10.0.117.57
-bd4186 location TBROW0XTRA # 10.0.116.100
-2a8f3c location TBROW0XTRA # 10.0.116.105
-# 10 T17
-631dd2 location 86x61 # 10.3.86.61
-8df580 location 86x62 # 10.3.86.62
-156d7e location 86x63 # 10.3.86.63
-78b167 location 86x64 # 10.3.86.64
-947fc0 location 86x65 # 10.3.86.65
-0c9708 location 86x71 # 10.3.86.71
-0e2daa location 86x72 # 10.3.86.72
-a4e862 location 86x73 # 10.3.86.73
-b86e2a location 86x74 # 10.3.86.74
-abd53b location 86x75 # 10.3.86.75
+bd4186 location TBROW0XTRA # 10.0.116.100 # extra added 12/9/19
+2a8f3c location TBROW0XTRA # 10.0.116.105 # extra added 12/9/19
+7c2304 location TBROW0XTRA # 10.0.116.120 # extra added 12/9/19
+b8dc7c location TBROW0XTRA # 10.0.116.149 # extra added 12/9/19
+a48a0d location TBROW0XTRA # 10.0.117.56 # extra added 12/9/19
+4431b9 location TBROW0XTRA # 10.0.117.60 # extra added 12/9/19
+136ece location TBROW0XTRA # 10.0.117.63 # extra added 12/9/19
+f393eb location TBROW0XTRA # 10.0.117.68 # extra added 12/9/19
+73e1d6 location TBROW0XTRA # 10.0.117.70 # extra added 12/9/19
+7edd32 location TBROW0XTRA # 10.0.117.78 # extra added 12/9/19
+18daaf location TBROW0XTRA # 10.0.117.103 # extra added 12/9/19
+480add location TBROW0XTRA # 10.0.117.107 # extra added 12/9/19
+a19f5a location TBROW0XTRA # 10.0.117.124 # extra added 12/9/19
+
+## tuning
 
 ## throttle
-833da0 uncork 1585327879
-640292 uncork 1585327879
-11664a uncork 1585327879
-78698e uncork 1585327879
-1ed5db uncork 1585327879
-0c44c2 uncork 1585327879
-728e7c uncork 1585327879
 
 ## fans
 
 ## reboots
-0c44c2 reboot 1585345274
-728e7c reboot 1585345274
-bf975b reboot 1585345274
-850aab reboot 1585345274
-0ceb03 reboot 1585345274
-58ac8c reboot 1585345274
-ced30b reboot 1585345274
-eb8f83 reboot 1585345274
-01a67d reboot 1585345274
-bd4186 reboot 1585345274
-5b8363 reboot 1585345274
-88e270 reboot 1585345274
-e9a6cf reboot 1585345274
 
 ## resets
-640292 reset 1586843228
-18b1ae reset 1586843228
-795c1e reset 1586843228
-2997d7 reset 1586843228
-db4511 reset 1586843228
-004faa reset 1586542934
-9b3778 reset 1586542934
-239cfe reset 1586542934
-0e26a9 reset 1586542934
-9bdd75 reset 1586542934
-1e68e9 reset 1586442107
-4ec51b reset 1586442107
-da01dc reset 1586442107
-70fe6e reset 1586442107
-13dae8 reset 1586442107
-3a984c reset 1586442107
-ab21b7 reset 1586442107
-ef1930 reset 1586442107
-6fd056 reset 1586277069
-34223c reset 1586277069
-eb170d reset 1586277069
-dd51b7 reset 1586277069
-2cd597 reset 1586098609
-58ac8c reset 1580319717
-2a8f3c reset 1580319717
-eb8f83 reset 1580319717
-1e8068 reset 1580319717
-13dae8 reset 1580319717
-9bdd75 reset 1580319717
-22efe8 reset 1580318277
-1ed5db reset 1580318277
-ab21b7 reset 1580318277
-a55b5b reset 1580318277
-11664a reset 1580318277
-88e270 reset 1580317084
-dd51b7 reset 1580317084
-34223c reset 1577486920
-0c44c2 reset 1577117942
-18b1ae reset 1577117942
-3a984c reset 1577117942
-795c1e reset 1577117942
-dd51b7 reset 1577117942
-2997d7 reset 1577117942
-1ed5db reset 1577117942
-ab21b7 reset 1577117942
-ef1930 reset 1577117942
-9b3778 reset 1577117942
-78698e reset 1577117942
 
 ## removals
-# s_remove generated on Dec 09 2019 22:33:20 utc: 1575930800
-global remove a2cb7c,d9e963,d10cec
-global remove e61a9b
-global remove 418c38
-global remove 803187
-global remove da121e
-global remove 3b93d0
-global remove d830a5
-global remove 03402b
-global remove b5dba0
-global remove 407bad
-global remove 3c6079
-global remove adb312
-global remove 16c71c
-global remove 07155f
-global remove 39bea5
-global remove 5dc1a8
-global remove 891907
-global remove 12efbe
-global remove 8943b5
-global remove f6a043
-global remove 3a5117
-global remove 19d799
-global remove 6d061b
-global remove 876b58
-global remove e30009
-global remove 7f9402
-global remove 209839
-global remove f16670
-global remove d1214b
-global remove fdbceb
-global remove a6a4fb
-global remove f128ab
-global remove 0f1f61
+global remove a2cb7c,d9e963,d10cec,e61a9b,418c38,803187,da121e,3b93d0,d830a5,03402b,b5dba0,407bad,3c6079,adb312,16c71c,07155f,39bea5,5dc1a8,891907,12efbe,8943b5,f6a043,3a5117,19d799,6d061b,876b58,e30009,7f9402,209839,f16670,d1214b,fdbceb,a6a4fb,f128ab,0f1f61
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
