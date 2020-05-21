@@ -9,7 +9,7 @@
 global custompanel TBROW0bit049
 global customer bit49-Russia
 
-global poolname1 139.99.51.161:9996 # (asia.sha256.mining-dutch.nl:9996)
+global poolname1 37.187.226.185:9996 # (sha256.mining-dutch.nl:9996)
 global username1 cryptotntt
 global poolpass1 x
 global sendworker1 yes
@@ -40,7 +40,7 @@ global blinkgreen rapid
 global panelclear 999
 
 # global retune 1
-# global reboot 1586647500
+global reboot 1590086444
 # global uncork 1577132760
 # global reset 1575567601
 
