@@ -257,6 +257,11 @@ db4511 location TBROW00093 # 10.0.67.45
 ## reboots
 
 ## resets
+dd51b7 reset 1592833542
+cb35ba reset 1592833542
+eb170d reset 1592833542
+dd58ae reset 1592833542
+c7a6d8 reset 1592833542
 239cfe reset 1592623768
 1e8068 reset 1592623768
 dd51b7 reset 1592505940
